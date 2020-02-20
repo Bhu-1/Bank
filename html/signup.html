@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>signUp</title>
+        <link rel="stylesheet" type="text/css" href="../css/signup.css">
+    </head>
+    <body>
+        <div class="form-box">
+            <form onsubmit="return validate()" action="homepage.html">
+                <div class="header">
+                    <h1>Create Account</h1>
+                </div>
+                <div class="input-div">
+                    First Name <input type="text" class="input-box"><br>
+                    <span class="msg-name"></span>
+                </div>
+                <div class="input-div">
+                    Last Name <input type="text" class="input-box"><br>
+                    <span class="msg-name"></span>
+                </div>
+                <div class="input-div">
+                    Email     <input type="text" class="input-box email">
+                    <span id="email_msg"></span>
+                </div>
+                <div class="input-div">
+                    Phone     <input type="text" class="input-box phone"><br>
+                    <span id="msg-ph"></span>
+                </div>
+                <div class="input-div">
+                    Password     <input type="text" class="input-box pass"><br>
+                    <span id="pass_msg"></span>
+                </div>
+                <div class="input-div">
+                    Dob
+                    <select class="dob-box">
+                        <option value=""></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <select class="dob-box">
+                        <option value=""></option>
+                        <option value="Jan">Jan</option>
+                        <option value="Feb">Feb</option>
+                        <option value="March">March</option>
+                        <option value="April">April</option>
+                        <option value="May">May</option>
+                    </select>
+                    <select class="dob-box">
+                        <option value=""></option>
+                        <option value="1990">1990</option>
+                        <option value="1991">1991</option>
+                        <option value="1992">1992</option>
+                        <option value="1993">1993</option>
+                        <option value="1994">1994</option>
+                    </select>
+                    <span id="dob-msg"></span>
+                </div>
+                <div class="btn-div">
+                    <button type="submit" class="btn-submit">SignUp</button>
+                </div>
+            </form>
+            <button type="button" id="btn-login"><a href="login.html" id="anchor">Login</a></button>
+        </div>
+        <script src="../js/signup.js"></script>
+    </body>
+</html>

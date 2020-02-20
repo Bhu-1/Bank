@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Demo</title>
+        <link rel="stylesheet" href="../css/demo.css">
+    </head>
+    <body>
+        <table id="table">
+            <th>Expense</th>
+            <th>Amount</th>
+            <th>Balance</th>
+            <th>Date</th>
+        </table>
+        <button type="button" onclick="insertRow()">Button</button>
+        <script>
+            function insertRow(){
+                var table = document.getElementById("table")
+                var row = table.insertRow()
+                row.insertCell(0).innerHTML = "1500"
+                row.insertCell(1).innerHTML = "1500"
+                row.insertCell(2).innerHTML = "1500"
+                row.insertCell(3).innerHTML = new Date()
+            }
+        </script>
+    </body>
+</html>

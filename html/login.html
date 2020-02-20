@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>login</title>
+        <link rel="stylesheet" type="text/css" href="../css/signup.css">
+        <link rel="stylesheet" href="../css/login.css">
+    </head>
+    <body>
+        <div class="form-box-login">
+            <form onsubmit="return validate()" action="homepage.html">
+                <div class="header">
+                    <h1>Log-in Account</h1>
+                </div>
+                <div class="input-div">
+                    Email     <input type="text" class="input-box email"> <br>
+                    <span id="email_msg"></span>                  
+                </div>
+                
+                <div class="input-div">
+                    Account No.<input type="text" class="input-box"><br><span id="acc_msg"></span>
+                </div>
+                
+                <div class="input-div">
+                    Password     <input type="password" class="input-box pass"><br>
+                    <span id="pass_msg"></span>
+                </div>
+                
+                <div class="btn-div">
+                    <button type="submit" class="btn-submit">Log-in</button>
+                </div>
+            </form>
+            <div class="login-div">
+                <button type="submit" class="btn-login"><a href="signup.html">Signup</a></button>
+            </div>
+        </div>
+        <script src="../js/login.js"></script>
+    </body>
+</html>

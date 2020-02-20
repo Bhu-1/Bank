@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HomePage</title>
+        <link rel="stylesheet" href="../css/homepage.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <h1>Online Bank of India</h1>
+        </div>
+        <div class="nav">
+            <div class="home">
+                <p>Home</p>
+            </div>
+            <div class="home">
+                <p>About</p>
+            </div>
+            <div class="home">
+                <p>Services</p>
+            </div>
+            <div class="home">
+                <p>Payment</p>
+            </div>
+            <div class="home">
+                <p>Account</p>
+            </div>
+            <div class="home log">
+                <p><a href="login.html">Logout</a></p>
+            </div>
+        </div>
+        <div class="balance">
+            Balance <input type="text" value="1000" class="input-box">
+            Expense <input type="text" class="input-box">
+            Amount  <input type="text" class="input-box">
+            <!-- <span id="amt-msg"></span> -->
+            <button onclick="calculate()">Submit</button>
+        </div>
+        <div class="office">
+           <p>Head Office <br>Old Madiwala <br> Pin :- 765408</p>
+        </div>
+        <div class="mark-div">
+            <marquee behavior="" direction="up" scrollamount="1">Loan at 10% rate <br><br> Open Saving Account
+            <br><br> Get credit card register here <br><br>Apply for Car loan <br><br>Housing loan at 6%p.a</marquee><br><br>
+        </div>
+        <div class="aside">
+            <table id="table">
+                <th>Expense</th>
+                <th>Amount</th>
+                <th>Balance</th>
+                <th>Date</th>
+            </table>
+        </div>
+        <div class="footer">
+            <p>Online Bank of India</p>
+            <p class="cpy-footer">copy@Bhu-1 Empire.co</p>
+        </div>
+        <script src="../js/homepage.js"></script>
+    </body>
+</html>

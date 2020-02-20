@@ -1,0 +1,13 @@
+.parent1{
+    border : 1px solid;
+    height : 110px;
+}
+.child{
+    border: 1px solid red;
+    height: 100px;
+    width: 30%;
+    display: inline-block;
+}
+th{
+    width: 30%;
+}

@@ -1,0 +1,29 @@
+.form-box-login{
+    border: 1px solid;
+    width: 30%;
+    margin: auto;
+    margin-top: 5%;
+    background-color: aliceblue;
+}
+.login-div{
+    margin-left: 10PX;
+    margin-top: 36px;
+    margin-bottom: 10px;
+}
+.btn-login{
+    text-align: center;
+    width: 70px;
+    height: 28px;
+    font-size: 14px;
+    font-family: sans-serif;
+    background-color: #a5f1a5;
+    border: 0px;
+    border-radius: 6px;
+}
+#email_msg,#pass_msg,#acc_msg{
+    font-size: 11px;
+    color: red;
+    padding-left: 20px;
+    display: block;
+    text-align: end;
+}
